@@ -4,7 +4,7 @@
  	font-family: "Maven Pro","Avenir";
  }
 
- .square {
+ .carre {
  	width: 30%;
  	background-color: purple;
  	padding-bottom: 30%;
@@ -16,11 +16,11 @@
  	-moz-transition: background 0.6s;
  }
 
-#colorDisplay {
+#afficheCouleur {
 	font-size: 200%;
 }
 
- #container {
+#conteneur {
  	margin:20px auto;
  	max-width: 600px;
  }
@@ -51,7 +51,7 @@
  	text-color: black;
  }
 
- .selected {
+ .selection {
  	color: white;
  	background-color: steelblue;
  }
@@ -74,4 +74,6 @@
  button:hover {
  	color: white;
  	background-color: steelblue;
+	cursor: pointer;
+	cursor: hand;
  }

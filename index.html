@@ -1,42 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
-	<title>Color Game</title>
+	<title>Jeu des couleurs</title>
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>The Great 
-	<br>
-	<span id="colorDisplay">RGB</span> 
-	<br>
-	Color Game</h1>
+	<h1>Le super jeu
+	<br><span id="afficheCouleur"></span><br>
+	</h1>
 
 	<div id="stripe">
-	<button id="reset">New Colors</button>
+	<button id="reset">Nouvelles couleurs</button>
 	<span id="message"></span>
-	<button class="modeBtn">Easy</button>
-	<button class="modeBtn selected">Medium</button>
-	<button class="modeBtn">Hard</button>
+	<button class="modeBtn">Facile</button>
+	<button class="modeBtn selection">Moyen</button>
+	<button class="modeBtn">Difficile</button>
 	</div>
 
-	<div id="container">
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
-		<div class="square"></div>
+	<div id="conteneur">
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
+		<div class="carre"></div>
 	</div>
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-	<script type="text/javascript" src="colorGame.js"></script>
+	<script type="text/javascript" src="jeuCouleurs.js"></script>
 </body>
 </html>
